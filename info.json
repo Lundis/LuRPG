@@ -1,0 +1,10 @@
+{
+	"name": "LuRPG",
+	"version": "0.1",
+	"factorio_version": "0.16",
+	"title": "LuRPG",
+	"author": "Lundis999",
+	"homepage": "",
+	"description": "Adds Character progression elements to Factorio. Inspired by DyWorld.",
+	"dependencies": ["base"]
+}
