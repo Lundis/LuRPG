@@ -4,7 +4,7 @@ data:extend({
 		name = "lurpg-player-max-speed-bonus",
 		setting_type = "runtime-per-user",
         minimum_value = 0,
-		default_value = 3,
+		default_value = 4,
 		maximum_value = 10,
 	},
 	{
@@ -12,7 +12,7 @@ data:extend({
 		name = "lurpg-map-max-speed-bonus",
 		setting_type = "runtime-global",
         minimum_value = 0,
-		default_value = 3,
+		default_value = 4,
 		maximum_value = 10,
 	},
 	{
@@ -52,7 +52,7 @@ data:extend({
 		name = "lurpg-attr-str-base",
 		setting_type = "runtime-global",
         minimum_value = 1,
-		default_value = 1.5,
+		default_value = 1.2,
 		maximum_value = 10,
 	},
 	{
@@ -60,7 +60,7 @@ data:extend({
 		name = "lurpg-attr-agi-base",
 		setting_type = "runtime-global",
         minimum_value = 1,
-		default_value = 1.5,
+		default_value = 1.2,
 		maximum_value = 10,
 	},
 	{
@@ -68,7 +68,7 @@ data:extend({
 		name = "lurpg-attr-dex-base",
 		setting_type = "runtime-global",
         minimum_value = 1,
-		default_value = 1.5,
+		default_value = 1.2,
 		maximum_value = 10,
 	},
 	{
@@ -76,7 +76,7 @@ data:extend({
 		name = "lurpg-attr-int-base",
 		setting_type = "runtime-global",
         minimum_value = 1,
-		default_value = 1.5,
+		default_value = 1.2,
 		maximum_value = 10,
 	},
 })

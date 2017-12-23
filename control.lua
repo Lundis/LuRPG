@@ -1,5 +1,5 @@
 require "gui/stats_gui"
-require "script/stats/functions"
+require "stats/functions"
 
 -- player hooks
 script.on_event(defines.events.on_player_created, function(event)

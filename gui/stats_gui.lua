@@ -1,6 +1,5 @@
 module("lurpg_stats_gui", package.seeall)
--- gui_1 is the stats menu
-require "script/stats/functions"
+require "stats/functions"
 
 function close_GUI(id)
 	if game.players[id].gui.top.lurpg_stats_gui then
@@ -52,7 +51,7 @@ function open_GUI(id)
 	hp_label = frameflow.add{type = "label", caption = {"lurpg_stats_gui.health", 
 		(game.entity_prototypes["player"].max_health + game.players[id].character_health_bonus)}}
 	hp_label.tooltip = {"lurpg_stats_gui.health_tooltip"}
-	
+
 	invslots_label = frameflow.add{type = "label", caption = {"lurpg_stats_gui.invslots", 
 		(game.entity_prototypes["player"].get_inventory_size(1) + game.players[id].character_inventory_slots_bonus)}}
 	invslots_label.tooltip = {"lurpg_stats_gui.invslots_tooltip"}
